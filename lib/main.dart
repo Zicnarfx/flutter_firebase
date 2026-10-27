@@ -57,7 +57,7 @@ class FirebaseHomePage extends StatelessWidget {
                   );
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.amber,
+                  backgroundColor: Colors.green,
                   foregroundColor: Colors.white,
                 ),
                 child: Text('Student Page'),
@@ -66,6 +66,7 @@ class FirebaseHomePage extends StatelessWidget {
           ],
         ),
       ),
+      
     );
   }
 }
